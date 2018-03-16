@@ -28,6 +28,7 @@
       </ul>
     </div>
   </nav>
+  <div id="exit" class="exit hiddenn"></div>
 <div class="fixedfooter">
         <!--<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="fixed-btn">Restopolitan ❤️{% if company %}{{company}}{%else%}You{% endif %}</button>-->
         <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="fixed-btn">Restopolitan ❤️ Klee Group</button>
@@ -242,4 +243,33 @@
       $("#sub-job").addClass('mail');
     })
   </script>
+  <!--<script>
+  document.addEventListener("mouseleave", function(e){
+      if( e.clientY < 0 )
+      {
+           var exit = document.getElementById("exit");
+           exit.classList.remove("hiddenn");
+      }
+  }, false);
+  document.addEventListener("mouseenter", function(e){
+    if (e.clientY > 0)
+    {
+      var exit = document.getElementById('exit');
+      exit.classList.add('hiddenn');
+    }
+  }, true);
+</script>-->
+<script>
+  $(function() {
+    $(document).on('mouseleave', leaveFromTop);
+		        $(document).on('mouseenter', function () {
+			        $('#exit').fadeOut();
+		        });
+
+				function leaveFromTop(e){
+				    if( e.clientY < 0 ) $('#exit').fadeIn();
+				    else $('#exit').fadeOut();
+				}
+  })
+</script>
 </body>

@@ -321,3 +321,19 @@ margin-bottom: 2rem;
   font-family: "Montserrat";
   margin-bottom:3rem;
 }
+
+.exit {
+  width:60%;
+  height: 60%;
+  position: absolute;
+  top:20%;
+  left:20%;
+  background-color:white;
+  background-image: url(../../img/tenor.gif);
+  background-size:cover;
+  z-index: 1000;
+}
+
+.hiddenn {
+  display:none;
+}
