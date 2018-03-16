@@ -212,4 +212,18 @@
       $("#sub-job").addClass('mail');
     })
   </script>
+  <div id="exit" class="exit2 hiddenn"></div>
+<script>
+  $(function() {
+    $(document).on('mouseleave', leaveFromTop);
+		        $(document).on('mouseenter', function () {
+			        $('#exit').fadeOut();
+		        });
+
+				function leaveFromTop(e){
+				    if( e.clientY < 0 ) $('#exit').fadeIn();
+				    else $('#exit').fadeOut();
+				}
+  })
+</script>
 </body>

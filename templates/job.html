@@ -155,9 +155,10 @@
         <form action="/" id="job-form-tel" method="POST">
           <input type="text" name="name" class="popup-input" required placeholder="Votre nom">
           <input type="text" name="job" class="popup-input" required placeholder="Votre poste">
-          <input type="phone" name="phone" id="phone" class="popup-input" required placeholder="Votre numéro">
+          <input type="text" name="phone" id="phone" class="popup-input" required placeholder="Votre numéro">
           <!--<input type="text" hidden value="{% if company %}{{company}}{%else%}You{% endif %}" name="company">-->
           <input type="text" hidden value="Klee Group" name="company">
+          <input type="text" hidden value="2" name="media">
         </form>
       </div>
       <div class="input-zone-job" id="form-mail" style="display:none">
@@ -167,6 +168,7 @@
           <input type="mail" name="mail" id="mail" class="popup-input" required placeholder="Votre mail">
           <!--<input type="text" hidden value="{% if company %}{{company}}{%else%}You{% endif %}" name="company">-->
           <input type="text" hidden value="Klee Group" name="company">
+          <input type="text" hidden value="1" name="media">
         </form>
       </div>
     </div>

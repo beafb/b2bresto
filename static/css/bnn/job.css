@@ -118,6 +118,7 @@ h2, h1 {
   border-radius: 3px;
   box-shadow: 2px 2px 0px #d2d2d2;
   position: sticky;
+  height:25rem;
   top: 120px;
 }
 
@@ -177,7 +178,8 @@ h2, h1 {
   font-weight: 600;
   font-family: 'Montserrat';
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  margin-top:2rem;
 }
 
 .input-zone-host > p.price {
@@ -378,6 +380,19 @@ margin-bottom: 2rem;
   height: 60%;
   background-image: url(../../img/tenor.gif);
   background-size:cover;
+  z-index: 1000;
+  top: 20%;
+bottom: 0;
+right: 0;
+left: 20%;
+position: fixed;
+}
+
+.exit2 {
+  background-image: url(../../img/giphy.gif);
+  width:60%;
+  height: 60%;
+background-size:cover;
   z-index: 1000;
   top: 20%;
 bottom: 0;
