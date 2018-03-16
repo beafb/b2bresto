@@ -289,6 +289,9 @@ h2, h1 {
   .aubureau {
     background-position-x: 50%;
   }
+  .fixedfans {
+    display: none;
+  }
 }
 .clients > div > .client-logo{
 display: inline-block;
