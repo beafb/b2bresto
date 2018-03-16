@@ -45,31 +45,31 @@ h2, h1 {
 }
 
 .howto > p.plate::before {
-  background-image: url(../../img/plate.png);
-  background-size:2rem 2rem;
+  background-image: url(../../img/checkmark.svg);
+  background-size:1rem 1rem;
   display: inline-block;
-  height: 2rem;
-  width: 2rem;
+  height: 1rem;
+  width: 1rem;
   content:"";
   margin-right: 1rem;
 }
 
 .howto > p.party::before {
-  background-image: url(../../img/party.png);
-  background-size:2rem 2rem;
+  background-image: url(../../img/checkmark.svg);
+  background-size:1rem 1rem;
   display: inline-block;
-  height: 2rem;
-  width: 2rem;
+  height: 1rem;
+  width: 1rem;
   content:"";
   margin-right: 1rem;
 }
 
 .howto > p.earth::before {
-  background-image: url(../../img/earth.png);
-  background-size:2rem 2rem;
+  background-image: url(../../img/checkmark.svg);
+  background-size:1rem 1rem;
   display: inline-block;
-  height: 2rem;
-  width: 2rem;
+  height: 1rem;
+  width: 1rem;
   content:"";
   margin-right: 1rem;
 }
