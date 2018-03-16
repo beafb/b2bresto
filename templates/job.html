@@ -1,0 +1,237 @@
+<head>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bnn/test.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bnn/reset.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bnn/job.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bnn/mobile.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
+  <title>Klee Group X Restopolitan</title>
+  <link href="{{url_for('static', filename='font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body class="perso">
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <ul class="nav navbar-nav navbar-right">
+
+      </ul>
+    </div>
+  </nav>
+<div class="fixedfooter">
+        <!--<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="fixed-btn">Restopolitan ❤️{% if company %}{{company}}{%else%}You{% endif %}</button>-->
+        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="fixed-btn">Restopolitan ❤️ Klee Group</button>
+
+</div>
+<section class="mb-10 mt-10 host">
+  <div class="container" style="margin-top: 40px;">
+    <div class="row">
+      <div class="col-12 col-md-6 mx-auto">
+        <div class="heading-zone">
+          <p class="first">Bonjour <span>{%if company%}{{company}}{%else%}{%endif%}</span></p>
+          {% if message%}
+          <h1>{{message}}</h1>
+          {%else%}
+          <h1>Nous allons faire grossir vos équipes</h1>
+          {% endif %}
+          <div class="howto">
+            <h2 style="font-size:1.5rem;" id="restopo">Restopolitan c'est :</h2>
+              <p class="plate ul">Un repas offert directement déduit de l’addition</p>
+              <p class="party ul">En illimité</p>
+              <p class="earth ul">Dans plus de 3 500 restaurants partenaires en Europe</p>
+          </div>
+          <div class="perks">
+            <h2 id="collab">Pour les collaborateurs</h2>
+            <p class="ul">Une solution complémentaire aux tickets restaurants</p>
+            <p class="ul">Vos collaborateurs économisent 500€/an
+  en moyenne</p>
+            <p class="ul">Ils en bénéficient dans le cadre pro ou perso</p>
+          </div>
+          <div class="perks" style="margin-bottom:5rem;">
+            <h2 id="office">Pour {{company}}</h2>
+            <p class="ul">Une gestion flexible avec un dashboard dédié</p>
+            <p class="ul">Un avantage collaborateur à coût maitrisé</p>
+            <p class="ul">Aucun engagement</p>
+          </div>
+          <h2 style="margin-bottom:2rem;">Ils nous font confiance</h2>
+          <div class="row clients">
+            <div class="col-md-4">
+              <div class="client-logo"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="client-logo"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="client-logo"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="client-logo"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="client-logo"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="client-logo"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mx-auto">
+        <div class="input-zone-host">
+          <p class="host-title" style="text-align:center"><span style="font-size:1rem;">Pour seulement</span><br><span style="color:#ed6653">3,49€</span><br><span style="font-size:1rem;">HT/mois/utilisateurs</span></p>
+          <input id="ex6" type="text" data-slider-min="10" data-slider-max="500" data-slider-step="10" data-slider-value="300"/>
+  <span id="ex6CurrentSliderValLabel"><span id="ex6SliderVal">300</span> employés</span>
+          <p class="price" id="price"><span id="price-value">1047€</span> HT/Mois</p>
+          <button type="submit" class="btn btn-primary" data-toggle="modal" id="ctamain"data-target="#myModal">Restopolitan ❤️{% if company %}{{company}}{%else%}You{% endif %}</button>
+        </div>
+      </div>
+      <!--<div class="col-12 col-md-8 mx-auto text-center text-muted">
+        <div class="subheading-zone">
+          <h2><sup>*</sup>Selon des estimations non scientifiques</h2>
+        </div>
+      </div>-->
+    </div>
+  </div>
+</section>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Super dites nous comment vous contacter !</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row" id="contactmethod">
+        <div class="col-md-6" style="text-align:center" id="phone">
+          <img src="{{url_for('static', filename='img/smartphone.png')}}" alt="" class="" style="cursor:pointer" id="phonecta">
+          <p>Par téléphone</p>
+        </div>
+        <div class="col-md-6" style="text-align:center" id="mail">
+          <img src="{{url_for('static', filename='img/gmail.png')}}" alt="" class="" style="cursor:pointer" id="mailcta">
+          <p>Par email</p>
+        </div>
+      </div>
+      <div class="input-zone-job" id="form-phone" style="display:none">
+        <form action="/" id="job-form-tel" method="POST">
+          <input type="text" name="name" class="popup-input" required placeholder="Votre nom">
+          <input type="text" name="job" class="popup-input" required placeholder="Votre poste">
+          <input type="phone" name="phone" id="phone" class="popup-input" required placeholder="Votre numéro">
+          <!--<input type="text" hidden value="{% if company %}{{company}}{%else%}You{% endif %}" name="company">-->
+          <input type="text" hidden value="Klee Group" name="company">
+        </form>
+      </div>
+      <div class="input-zone-job" id="form-mail" style="display:none">
+        <form action="/" id="job-form-mail" method="POST">
+          <input type="text" name="name" class="popup-input" required placeholder="Votre nom">
+          <input type="text" name="job" class="popup-input" required placeholder="Votre poste">
+          <input type="mail" name="mail" id="mail" class="popup-input" required placeholder="Votre mail">
+          <!--<input type="text" hidden value="{% if company %}{{company}}{%else%}You{% endif %}" name="company">-->
+          <input type="text" hidden value="Klee Group" name="company">
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer" style="display:none;">
+      <button type="button" id="sub-job" class="btn btn-primary">Envoyer</button>
+    </div>
+  </div>
+</div>
+</div>
+<section class="mb-10 mt-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <h2 class="restoheading">Des milliers de restaurants en Europe</h2>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4">
+        <img src="{{url_for('static', filename='img/restaurant1.jpg')}}" alt="" style="width:100%;" class="img-fluid">
+      </div>
+      <div class="col-xl-4 text-center">
+        <img src="{{url_for('static', filename='img/restaurant2.jpg')}}" alt="" style="width:100%;">
+      </div>
+      <div class="col-xl-4 text-center">
+        <img src="{{url_for('static', filename='img/restaurant5.jpg')}}" alt="" style="width:100%;">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mb-10 mt-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 text-center">
+        <!--<h2>Cette entreprise veut déjà nous rejoindre: <a class="btn btn-primary" href="https://www.linkedin.com/company/{{linkedin}}/" target="_blank">Voir</a></h2>-->
+        <h2>Cette entreprise veut déjà nous rejoindre: <a class="btn btn-primary" href="https://www.linkedin.com/company/17552/" target="_blank">Voir</a></h2>
+
+      </div>
+    </div>
+  </div>
+</section>
+<div class="aubureau">
+    <div class="overlayy">
+      <div class="ctabureau">
+        <h2 class="white text-center">Ne plus hésiter</h2>
+        <a href="" class="btn btn-primary text-center" id="ctasec" data-toggle="modal" data-target="#myModal">Parlons-nous</a>
+      </div>
+    </div>
+</div>
+  <script type="text/javascript" src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+  <script src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename='js/calculate.js')}}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/jquery.datetimepicker.css')}}"/ >
+  <script src="{{url_for('static', filename='js/timebuild/jquery.datetimepicker.full.min.js')}}"></script>
+  <script>
+    $('#visitorform').submit(function(){
+      $('#spinmyhead').html('<i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>')
+    })
+  </script>
+  <script>
+    $('#datetimepicker').datetimepicker({
+      lang:'fr',
+      format:'d/m/Y H:i'
+    });
+  </script>
+  <script>
+    $("#sub-job").click(function(){
+      if ($(this).hasClass('mail')){
+        $("#job-form-mail").submit();
+    }
+    else {
+      $("#job-form-tel").submit()
+    }
+    })
+  </script>
+  <script>
+  $("#ex6").slider();
+    $("#ex6").on("slide", function(slideEvt) {
+    $("#ex6SliderVal").text(slideEvt.value);
+    var formula = (parseInt(slideEvt.value) * 3.49).toFixed(2);
+    console.log(formula);
+    $("#price-value").text(formula+'€');
+});
+
+  </script>
+  <script>
+    $("#phonecta").click(function(){
+      $("#contactmethod").fadeOut();
+      $("#form-phone").fadeIn();
+      $(".modal-footer").slideDown();
+      $("#exampleModalLabel").text('Super, une dernière étape ');
+      $("#sub-job").addClass('phone');
+    })
+  </script>
+  <script>
+    $("#mailcta").click(function(){
+      $("#contactmethod").fadeOut();
+      $("#form-mail").fadeIn();
+      $(".modal-footer").slideDown();
+      $("#exampleModalLabel").text('Super, une dernière étape ');
+      $("#sub-job").addClass('mail');
+    })
+  </script>
+</body>

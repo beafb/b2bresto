@@ -1,0 +1,52 @@
+section.host {
+  display:none;
+}
+
+.input-zone-host {
+  background-color: white;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 0px #d2d2d2;
+}
+
+.input-zone-host > input[type=text] {
+  width: 98%;
+  margin-bottom: 20px;
+  height: 3rem;
+  padding-left: 2%;
+  /* border-bottom: 1px solid grey; */
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.input-zone-host > select {
+  width: 100%;
+  margin-bottom: 20px;
+  border:none;
+}
+
+.host-title {
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+
+.input-zone-host > p.price {
+  font-size:3rem;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  color: #007bff;
+}
+
+.input-zone-host > button {
+  width:100%;
+  height: 3rem;
+}
+
+.iconinput-host {
+  position: relative;
+  font-size: 30px !important;
+  color: #007aff;
+}

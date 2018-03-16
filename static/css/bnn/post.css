@@ -1,0 +1,83 @@
+.cover {
+    background-color: #111;
+    color: #fff;
+    display: table;
+    height: 100vh;
+    margin-bottom: 60px;
+    position: relative;
+    width: 100%;
+}
+.post-header {
+    margin-bottom: 30px;
+}
+
+.cover-bg, .post-bg {
+    -webkit-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    opacity: .4;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cover-content {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cover.post-header .inner {
+    padding-bottom: 90px;
+    padding-top: 120px;
+}
+
+.cover .inner {
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.inner {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cover .scroll-down {
+    bottom: 30px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+
+}
+
+.scroll-down:hover {
+  text-decoration: none;
+}
+
+.screen-reader-text {
+    clip: rect(1px,1px,1px,1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute!important;
+    width: 1px;
+}
+
+.square {
+border: 2px solid #eee;
+color: #ccc;
+display: inline-block;
+font-size: 14px;
+height: 36px;
+line-height: 2.55555;
+text-align: center;
+width: 36px;
+border-color: #fff;
+color: #fff;
+    padding-top: 6px;
+}

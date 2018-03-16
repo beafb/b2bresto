@@ -1,0 +1,154 @@
+.mybtn {
+  color: white !important;
+
+}
+
+.cryptoicons {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cryptoicons .crypto-item {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cryptoicons .crypto-item .crypto-icon {
+    width: 43px;
+    height: 43px;
+    background-size: 43px 43px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cryptoicons .crypto-item .crypto-icon.bitcoin-icon {
+    background-image: url(../img/icons/bitcoin-icon.png);
+}
+
+.cryptoicons .crypto-item .crypto-icon.eth-icon {
+  background-image: url(../img/icons/ethereum-icon.png)
+}
+.cryptoicons .crypto-item .crypto-icon.ltc-icon {
+  background-image: url(../img/icons/litecoin-icon.png)
+}
+.cryptoicons .crypto-item .crypto-icon.dash-icon {
+  background-image: url(../img/icons/dash-icon.png)
+}
+.cryptoicons .crypto-item .crypto-icon.xmr-icon {
+  background-image: url(../img/icons/monero-icon.png)
+}
+
+.subtitle-header {
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin-bottom:5rem;
+}
+
+.masthead {
+	background: #5a24dc !important;
+	background: -webkit-linear-gradient(to top, #fe866d, #8103e8) !important;
+	background: linear-gradient(to top, #fe866d, #8103e8) !important;
+}
+
+
+.section_heading {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.section_heading > h2{
+  margin-bottom: 30px;
+}
+
+.section_heading > .med_underline {
+    margin: 10px auto 30px;
+}
+
+.med_underline {
+    background-color: #007aff;
+    height: 3px;
+    margin: 0 0 10px;
+    width: 100px;
+}
+
+.section_heading>p {
+    margin-bottom: 5px;
+    max-width: 650px;
+    margin: 0 auto;
+    color: #7d7d7d;
+}
+
+.features-icons-icon > i {
+  color: #8103e8 !important;
+}
+
+#js-rotating {
+  transition: width 0.3s ease;
+  width: 166px;
+}
+
+.custom-input {
+    border-radius: .3rem 0 0 .3rem;
+    height:60px;
+}
+.custom-submit {
+    height:60px;
+    border-radius: 0 .3rem .3rem 0;
+}
+
+@media (max-width: 800px) {
+  .custom-submit {
+       border-radius: 0.3rem;
+    }
+    .custom-input {
+         border-radius: 0.3rem;
+      }
+      body > header > div > div:nth-child(4) > div.col-md-10.col-lg-8.col-xl-7.mx-auto > form > div > div.col-12.col-md-9.mb-2.mb-md-0 {
+        padding-right: 5px !important;
+      }
+      body > header > div > div:nth-child(4) > div.col-md-10.col-lg-8.col-xl-7.mx-auto > form > div > div.col-12.col-md-3 {
+        padding-left: 5px !important;
+      }
+}
+
+.product-title {
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+
+.custom-submit2 {
+  margin-top:10px;
+}
+
+.custom-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.social-icon {
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.name_social {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    margin-left: 5px;
+}
+
+.reddit {
+  background-image: url(../img/reddit-icon.png);
+}
+
+.bitcointalk {
+  background-image: url(../img/bitcoin-icon.png);
+}

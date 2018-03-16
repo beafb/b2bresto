@@ -1,0 +1,323 @@
+@font-face {
+  font-family: cogito;
+  src: url(../../CogitoWeb-Bold.woff)
+}
+
+h2, h1 {
+  font-family: 'cogito' !important;
+}
+
+#datetimepicker::placeholder {
+  color:white;
+}
+.img-perso {
+  width:100%;
+}
+
+.clients {
+      margin-bottom: 3rem;
+}
+
+.heading-zone .perks .ul {
+  font-size:1rem;
+  padding-left: 5rem;
+  text-align: left;
+}
+
+
+
+.heading-zone .perks h2 {
+
+}
+
+.heading-zone .perks #collab::before {
+  background-image: url(../../img/party.png);
+  background-size:2rem 2rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+.howto {
+  margin-bottom:2rem;
+}
+
+.howto > p.plate::before {
+  background-image: url(../../img/plate.png);
+  background-size:2rem 2rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+.howto > p.party::before {
+  background-image: url(../../img/party.png);
+  background-size:2rem 2rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+.howto > p.earth::before {
+  background-image: url(../../img/earth.png);
+  background-size:2rem 2rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+.heading-zone .perks #office::before {
+  background-image: url(../../img/office.png);
+  background-size:2rem 2rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+#restopo {
+  font-size:2rem !important;
+}
+
+.heading-zone .howto .ul {
+  padding-left: 5rem;
+}
+
+#restopo::before {
+  background-image: url(../../img/Logo_mail.jpeg);
+  background-size:2rem 2rem;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+.heading-zone .perks .ul::before {
+  background-image: url(../../img/checkmark.svg);
+  background-size:1rem 1rem;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  content:"";
+  margin-right: 1rem;
+}
+
+.input-zone-host {
+  background-color: white;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 0px #d2d2d2;
+  position: sticky;
+  top: 120px;
+}
+
+#ex1Slider .slider-selection {
+	background: #ed6653 !important;
+}
+
+.slider-handle {
+  background-color: #282854 !important;
+      background-image: linear-gradient(to bottom,#282854 0,#2828B7 100%) !important;
+}
+
+.slider.slider-horizontal {
+  width: 100% !important;
+}
+
+.input-zone-host > input[type=text] {
+  width: 98%;
+  margin-bottom: 20px;
+  height: 3rem;
+  padding-left: 2%;
+  /* border-bottom: 1px solid grey; */
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.input-zone-job {
+  text-align: center;
+  padding: 25px;
+}
+
+.popup-input {
+  width: 60%;
+  margin-bottom: 20px;
+  height: 3rem;
+  /* border-bottom: 1px solid grey; */
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+}
+
+.popup-date {
+  width: 60%;
+  height:3rem;
+}
+
+.input-zone-host > select {
+  width: 100%;
+  margin-bottom: 20px;
+  border:none;
+}
+
+.host-title {
+  font-size:1.5rem;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.input-zone-host > p.price {
+  font-size:1rem;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  color: #272755;
+  margin-bottom: 2rem;
+}
+
+.input-zone-host > button {
+  width:100%;
+  height: 3rem;
+}
+
+.iconinput-host {
+  position: relative;
+  font-size: 30px !important;
+  color: #007aff;
+}
+
+.aubureau {
+  background-image:url(../../img/jacques.jpg);
+  background-size:cover;
+  height:600px;
+  width: 100%;
+}
+
+#price-value {
+  color:#ed6653 !important;
+}
+
+.btn-primary {
+  background-color: #ED6754 !important;
+  border-color:#ED6754 !important;
+}
+
+.btn-primary:hover {
+  background-color: #ff5744 !important;
+  border-color:#ff5744 !important;
+}
+
+.heading-zone > p {
+  color:#272755;
+  font-size:3rem;
+}
+
+.heading-zone > p.first::first-letter {
+  color:#ED6754;
+}
+
+.overlayy {
+  background-color:rgba(0, 0, 0, 0.3);
+  height: 600px;
+  width: 100%;
+  padding-top:20%;
+}
+
+.ctabureau {
+  margin:auto;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.white {
+  color:white;
+}
+
+.fixedfooter {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .aubureau {
+    height:auto;
+  }
+  .fixedfooter {
+    width:100%;
+    display:inline-block;
+  }
+  #fixed-btn {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+  }
+  #ctamain {
+    display:none;
+  }
+  #ctasec {
+    display:none;
+  }
+  .aubureau {
+    background-position-x: 50%;
+  }
+}
+.clients > div > .client-logo{
+display: inline-block;
+margin-bottom: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 36px;
+}
+
+.pd-25 {
+  padding-top: 25%;
+}
+
+.clients > div:nth-child(3) > div {
+  background-image: url(../../img/logo/logo-bnp.png)
+}
+
+.clients > div:nth-child(2) > div {
+  background-image: url(../../img/logo/logo-etam.png)
+}
+.clients > div:nth-child(1) > div{
+  background-image: url(../../img/logo/logo-topito.png)
+}
+
+.clients > div:nth-child(4) > div{
+  background-image: url(../../img/logo/logo-ornikar.png)
+}
+
+.clients > div:nth-child(5) > div{
+  background-image: url(../../img/logo/logo-yr.png)
+}
+
+.clients > div:nth-child(6) > div{
+  background-image: url(../../img/logo/logo-madecom.png)
+}
+
+.restoheading {
+  text-align:center;
+  font-family: "Montserrat";
+  margin-bottom:3rem;
+}

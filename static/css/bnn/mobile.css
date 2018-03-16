@@ -1,0 +1,11 @@
+@media (max-width: 640px) {
+  .hide-mobile {
+    display:none !important;
+  }
+  .input-zone {
+    min-height: 70px;
+  }
+  .iconinput {
+    top:10px;
+  }
+}
