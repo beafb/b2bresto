@@ -93,7 +93,7 @@ h2, h1 {
 }
 
 #restopo::before {
-  background-image: url(../../img/Logo_mail.jpeg);
+  background-image: url(../../img/logoresto.png);
   background-size:2rem 2rem;
   display: inline-block;
   height: 2rem;
