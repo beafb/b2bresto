@@ -325,13 +325,14 @@ margin-bottom: 2rem;
 .exit {
   width:60%;
   height: 60%;
-  position: absolute;
-  top:20%;
-  left:20%;
-  background-color:white;
   background-image: url(../../img/tenor.gif);
   background-size:cover;
   z-index: 1000;
+  top: 20%;
+bottom: 0;
+right: 0;
+left: 20%;
+position: fixed;
 }
 
 .hiddenn {
