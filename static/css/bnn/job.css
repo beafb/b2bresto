@@ -266,6 +266,9 @@ h2, h1 {
   .aubureau {
     height:auto;
   }
+  .footer {
+    display:none;
+  }
   .fixedfooter {
     width:100%;
     display:inline-block;
