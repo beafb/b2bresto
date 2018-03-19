@@ -179,7 +179,6 @@ h2, h1 {
   font-family: 'Montserrat';
   text-transform: uppercase;
   margin-bottom: 4rem;
-  margin-top:2rem;
 }
 
 .input-zone-host > p.price {
@@ -205,6 +204,7 @@ h2, h1 {
   background-image:url(../../img/jacques.jpg);
   background-size:cover;
   height:600px;
+  background-position-y:-130px;
   width: 100%;
 }
 
